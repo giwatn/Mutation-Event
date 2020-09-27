@@ -1,0 +1,156 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+body {
+    background-color: #403c3b;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    background-color: #403c3b;
+    margin: 0 auto 0 auto;
+}
+
+
+/* Responsive page rules at bottom of style sheet */
+
+h1 {
+    background-image: url(../img/kinglogo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    text-indent: -1700%;
+    height: 75px;
+    line-height: 75px;
+    width: 117px;
+    margin: 0 auto 0 auto;
+    padding: 30px 10px 20px 10px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    margin: 0 0 23px 0;
+}
+
+h2 span {
+    background-color: #fff;
+    color: #403c3b;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 0;
+    display: inline-block;
+    position: relative;
+    border-radius: 100%;
+    top: -5px;
+    height: 20px;
+    width: 28px;
+    padding: 4px 0 5px 0;
+}
+
+ul {
+    background-color: #584f4d;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #ec8b68;
+    color: #fff;
+    border-top: 1px solid #fe9772;
+    border-bottom: 1px solid #9f593f;
+    font-size: 24px;
+    letter-spacing: .05em;
+    list-style-type: none;
+    text-shadow: 2px 2px 1px #9f593f;
+    height: 50px;
+    padding-left: 1em;
+    padding-top: 10px;
+}
+
+#list {
+    margin-bottom: 10px;
+}
+
+
+/* ADDING OF ITEM LIST */
+
+div.button {
+    height: 65px;
+    padding-right: 10px;
+}
+
+a.add {
+    background-color: #d74f4f;
+    color: #f3dad1;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 12px;
+    margin-top: 10px;
+    margin-right: -10px;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.add:hover {
+    background-color: #f3dad1;
+    color: #cd4d4d;
+    cursor: pointer;
+    box-shadow: none;
+    position: relative;
+    top: 1px;
+    transition: ease-out 2s;
+}
+
+
+/* Small screen - acts like the app would */
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #403c3b;
+    }
+    #page {
+        max-width: 480px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+
+
+/* Larger screens act like a demo for the app */
+
+@media only screen and (min-width: 960px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    h1 {
+        background-image: url(../img/2xkinglogo.png);
+        background-size: 72px 72px;
+    }
+}
