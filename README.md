@@ -1,5 +1,5 @@
 # Mutation-Event
-In this project we explore two event listeners each trigget their own function. 
+In this project we explored two event listeners each trigget their own function. 
 The first is on the last but one line, and it listens for when the user clicks the link to add a new list item. It then uses DOM manipulation events to add a new element
 their own function. 
 
